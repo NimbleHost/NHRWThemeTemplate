@@ -33,15 +33,15 @@
 		<p>%plugin_sidebar%</p>
 		<p>%breadcrumb%</p>
 		<p>%footer%</p>
+		<!-- Include the latest version of jQuery, or whichever javascript library you prefer to use. -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<!-- Set the RwSet variable here. RwGet.pathto() can be used in javascript files to specify the correct path to theme assets. -->
+		<script charset="utf-8">RwSet = { pathto: "%pathto(javascript.js)%", baseurl: "%base_url%" };</script>
+		<!-- Include your theme's base script file. -->
+		<script type="text/javascript" src="%pathto(scripts/theme_base_script.js)%"></script>
+		<!-- Include the core javascript file required for all RapidWeaver themes. -->
+		<script type="text/javascript" src="%pathto(javascript.js)%"></script>
+		<!-- User defined javascript -->
+		%user_javascript%
 	</body>
-	<!-- Include the latest version of jQuery, or whichever javascript library you prefer to use. -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-	<!-- Set the RwSet variable here. RwGet.pathto() can be used in javascript files to specify the correct path to theme assets. -->
-	<script charset="utf-8">RwSet = { pathto: "%pathto(javascript.js)%", baseurl: "%base_url%" };</script>
-	<!-- Include your theme's base script file. -->
-	<script type="text/javascript" src="%pathto(scripts/theme_base_script.js)%"></script>
-	<!-- Include the core javascript file required for all RapidWeaver themes. -->
-	<script type="text/javascript" src="%pathto(javascript.js)%"></script>
-	<!-- User defined javascript -->
-	%user_javascript%
 </html>
