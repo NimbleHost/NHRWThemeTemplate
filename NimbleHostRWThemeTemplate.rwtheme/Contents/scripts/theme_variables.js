@@ -5,6 +5,6 @@ var nhrwthemetemplate = {};
 nhrwthemetemplate.themeFunctions = {};
 
 // Declare your variables, setting them to whatever default values you need
-nhrwthemetemplate.themeFunctions.variable_1 = '',
-nhrwthemetemplate.themeFunctions.variable_2 = '',
-nhrwthemetemplate.themeFunctions.variable_3 = '';
+nhrwthemetemplate.themeFunctions.variable_1,
+nhrwthemetemplate.themeFunctions.variable_2,
+nhrwthemetemplate.themeFunctions.variable_3;
