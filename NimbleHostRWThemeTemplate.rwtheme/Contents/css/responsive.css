@@ -1,0 +1,14 @@
+/* Large screen displays & iPad in Landscape */
+@media screen and (max-width: 1030px) {
+	
+}
+
+/* Medium screen displays & iPad in Portrait */
+@media screen and (max-width: 770px) {
+	
+}
+
+/* Small screen Styles */
+@media screen and (max-width: 480px) {
+	@import url("iPhone.css");
+}

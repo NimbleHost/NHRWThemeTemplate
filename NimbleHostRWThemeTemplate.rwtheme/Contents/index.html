@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- User defined head content such as meta tags and encoding options -->
+		%header%
+		<title>%title%</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="%pathto(styles.css)%" />
+		<link rel="stylesheet" type="text/css" media="print" href="%pathto(css/print.css)%" />
+		<link rel="stylesheet" type="text/css" media="handheld" href="%pathto(css/mobile.css)%" />
+		<link rel="stylesheet" type="text/css" media="all" href="%pathto(css/colourtag.css)%" />
+		<script type="text/javascript" src="%pathto(scripts/theme_variables.js)%"></script>
+		<!-- Style variations - these are set up in the Theme.plist -->
+		%style_variations%
+		<!--[if IE 9]>
+		<![endif]-->
+		<!--[if lte IE 8]>
+		<![endif]-->
+		<!-- Plugin defined header -->
+		%plugin_header%
+		<!-- User defined header -->
+		%user_header%
+		<!-- User defined styles -->
+		%user_styles%
+	</head>
+	<body>
+		<!-- Add your unique theme layout here. -->
+		<p>%site_slogan%</p>
+		<p>%logo%</p>
+		<p>%toolbar%</p>
+		<p>%content%</p>
+		<p>%sidebar_title%</p>
+		<p>%sidebar%</p>
+		<p>%plugin_sidebar%</p>
+		<p>%breadcrumb%</p>
+		<p>%footer%</p>
+	</body>
+	<!-- Include the latest version of jQuery, or whichever javascript library you prefer to use. -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<!-- Set the RwSet variable here. RwGet.pathto() can be used in javascript files to specify the correct path to theme assets. -->
+	<script charset="utf-8">RwSet = { pathto: "%pathto(javascript.js)%", baseurl: "%base_url%" };</script>
+	<!-- Include your theme's base script file. -->
+	<script type="text/javascript" src="%pathto(scripts/theme_base_script.js)%"></script>
+	<!-- Include the core javascript file required for all RapidWeaver themes. -->
+	<script type="text/javascript" src="%pathto(javascript.js)%"></script>
+	<!-- User defined javascript -->
+	%user_javascript%
+</html>
