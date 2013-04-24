@@ -1,7 +1,7 @@
 NHRWThemeTemplate
 =================
 
-It is considered best practice to include javascript files at the end of the closing `</body>` tag of a webpage, rather than in the `head`. This can present RapidWeaver theme developers with a challenge when there are theme options that require javascript, as that often requires a library like jQuery to be loaded first - which usually means there's no way to get around adding a bunch of javascripts files to the `head` tag.
+It is considered best practice to include javascript files immediately before the closing `</body>` tag of a webpage, rather than in the `head`. This can present RapidWeaver theme developers with a challenge when there are theme options that require javascript, as that often requires a library like jQuery to be loaded first - which usually means there's no way to get around adding a bunch of javascripts files to the `head` tag.
 
 
 The Workaround
